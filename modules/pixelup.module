@@ -1,14 +1,14 @@
-﻿#!name=Bardy AI
+﻿#!name=Pixelup
 
-#!desc=Bardy AI Pro unlock
+#!desc=Pixelup AI Pro unlock
 
 [Script]
 
-Bardy=type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/bardy.js
+Pixelup=type=http-response,pattern=https://receipt-verifier.cdwapi.com/receipt,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/pixelup.js
 
 [MITM]
 
-hostname= %APPEND% api.revenuecat.com
+hostname= %APPEND%
 
 
 
