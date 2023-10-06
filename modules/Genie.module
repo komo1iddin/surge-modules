@@ -1,0 +1,15 @@
+﻿#!name=Genie 
+
+#!desc=Genie hack
+
+#!icon=https://i.imgur.com/p5b86ZU.jpg
+
+[MITM]
+
+hostname = %APPEND% api.adapty.io
+
+[Script]
+
+Genie=type=http-response,pattern=https://api.adapty.io/api/v1/sdk/in-apps/apple/receipt/validate/,requires-body=1,script-path=https://www.dropbox.com/scl/fi/dp7svv2pmrfzdufgwwqmv/Genie.js?rlkey=qacjct89064muo5dco9n8utbw&dl=1
+
+GenieAnalytics=type=https://api.adapty.io/api/v1/sdk/analytics/profiles.+,requires-body=1,script-path=https://www.dropbox.com/scl/fi/e8ka1rg282hbqr54vd2lm/GenieAnalytics.js?rlkey=3csi545buy922deavcsnrem1z&dl=1
