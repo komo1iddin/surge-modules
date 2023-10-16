@@ -4,7 +4,7 @@
 
 [Script]
 
-Goodnotes=type=http-response,pattern=isi.csan.goodnotes.com/v1/receipts,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/goodnotes.js
+Goodnotes=type=http-response,pattern=https://isi.csan.goodnotes.com/v1/receipts,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/goodnotes.js
 [MITM]
 
 hostname= %APPEND% isi.csan.goodnotes.com
