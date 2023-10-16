@@ -36,7 +36,7 @@ body = {
         "grace_period_expires_date": null,
         "purchase_date": "2023-10-16T07:55:02Z",
         "product_identifier": "com.goodnotes.premium_7dt_1y_999",
-        "expires_date": "2023-10-16T07:58:02Z"
+        "expires_date": "2099-10-16T07:58:02Z"
       }
     },
     "original_purchase_date": "2013-08-01T07:00:00Z",
