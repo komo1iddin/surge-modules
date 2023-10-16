@@ -1,10 +1,10 @@
-﻿#!name=Bardy AI
+﻿#!name=Quran Pro
 
-#!desc=Bardy AI Pro unlock
+#!desc=Quran Pro Unlock
 
 [Script]
 
-Bardy=type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/bardy.js
+Quranpro=type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/quranpro.js
 
 [MITM]
 
