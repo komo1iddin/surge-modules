@@ -3,7 +3,7 @@ body = {
     "subscriber": {
       "non_subscriptions": {},
       "other_purchases": {},
-      "management_url": "https://apps.apple.com/account/subscriptions",
+      "management_url": null,
       "subscriptions": {
         "dash.redict.pro.year.full": {
           "original_purchase_date": "2023-09-23T10:41:14Z",
