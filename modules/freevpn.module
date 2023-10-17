@@ -1,14 +1,17 @@
-﻿#!name=Sorted
+﻿#!name=Free VPN
 
-#!desc=Sorted Unlock subscription
+#!desc=Free VPN Unlimited
 
 [Script]
 
-Sorted=type=http-response,pattern=https://buy.itunes.apple.com/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/freevpn.js
+Bardy=type=http-response,pattern=https://buy.itunes.apple.com/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/komo1iddin/surge-modules/main/scripts/freevpn.js
 
 [MITM]
 
-hostname= %APPEND% api.sortedapp.com
+hostname= %APPEND% buy.itunes.apple.com
+
+
+
 
 
 
